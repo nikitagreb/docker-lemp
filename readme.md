@@ -6,6 +6,7 @@
     - PHP-fpm
     - PHP-cli + composer
     - mysql
+    - adminer
     - redis
     - NodeJS
     
