@@ -52,6 +52,11 @@ services:
       - "MYSQL_DATABASE=elaravel"
     ports:
       - "33061:3306"
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 6080:8080
   redis:
     image: redis
     ports:
