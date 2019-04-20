@@ -22,4 +22,4 @@ For convenience, you can use the commands:
     - make docker-up;
     - make docker-down;
     - make docker-build;
-    - docker-php;
+    - make docker-php;
