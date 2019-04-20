@@ -14,6 +14,3 @@ assets-dev:
 	docker-compose exec node yarn run dev
 assets-watch:
 	docker-compose exec node yarn run watch
-perm:
-	sudo chgrp -R www-data src/storage src/bootstrap/cache
-	sudo chmod -R ug-rwx src/storage src/bootstrap/cache

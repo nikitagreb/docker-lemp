@@ -13,4 +13,3 @@ RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" \
 RUN usermod -u 1000 www-data
 
 WORKDIR /var/www
-
